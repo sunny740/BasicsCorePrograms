@@ -27,6 +27,10 @@ namespace BasicCorePrograms
                         PowerOfTwo Power = new PowerOfTwo();
                         Power.Power();
                         break;
+                    case 4:
+                        HarmonicNumber Numbers = new HarmonicNumber();
+                        Numbers.Number();
+                        break;
                     default:
                         Console.WriteLine("Enter Proper Option To Execute");
                         break;
