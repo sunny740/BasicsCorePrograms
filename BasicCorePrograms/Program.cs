@@ -8,7 +8,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Welcome to Basic Programs");
             bool end = true;
-            Console.WriteLine("1. FlipCoin\n2. Leap Year\n3. Power Of Two Table\n4. HarmonicNumbers\n5. Factors\n6. QuotientAndRemainder\n7. SwapTwoNumbers\n8. End the Program");
+            Console.WriteLine("1. FlipCoin\n2. Leap Year\n3. Power Of Two Table\n4. HarmonicNumbers\n5. Factors\n6. QuotientAndRemainder\n7. SwapTwoNumbers\n8. EvenorOdd\n9. End the Program");
             while (end == true)
             {
                 Console.WriteLine("Take an option to execute");
@@ -42,6 +42,10 @@ namespace BasicCorePrograms
                     case 7:
                         SwapTwoNumbers Number = new SwapTwoNumbers();
                         Number.Numbers();
+                        break;
+                    case 8:
+                        EvenorOdd Num = new EvenorOdd();
+                        Num.Numbers();
                         break;
                     default:
                         Console.WriteLine("Enter Proper Option To Execute");
