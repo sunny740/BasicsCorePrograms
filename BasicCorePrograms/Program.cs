@@ -8,7 +8,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Welcome to Basic Programs");
             bool end = true;
-            Console.WriteLine("1. FlipCoin\n2. Leap Year\n3. Power Of Two Table\n4. End the Program");
+            Console.WriteLine("1. FlipCoin\n2. Leap Year\n3. Power Of Two Table\n4. HarmonicNumbers\n5. Factors\n 6. QuotientAndRemainder\n7. End the Program");
             while (end == true)
             {
                 Console.WriteLine("Take an option to execute");
@@ -34,6 +34,10 @@ namespace BasicCorePrograms
                     case 5:
                         Factors facto = new Factors();
                         facto.Factorial();
+                        break;
+                    case 6:
+                        QuotientAndRemainder Quto = new QuotientAndRemainder();
+                        Quto.Compute();
                         break;
                     default:
                         Console.WriteLine("Enter Proper Option To Execute");
