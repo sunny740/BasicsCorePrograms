@@ -31,6 +31,10 @@ namespace BasicCorePrograms
                         HarmonicNumber Numbers = new HarmonicNumber();
                         Numbers.Number();
                         break;
+                    case 5:
+                        Factors facto = new Factors();
+                        facto.Factorial();
+                        break;
                     default:
                         Console.WriteLine("Enter Proper Option To Execute");
                         break;
