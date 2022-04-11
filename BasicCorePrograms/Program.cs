@@ -22,7 +22,10 @@ namespace BasicCorePrograms
                     case 2:
                         LeapYear Leap = new LeapYear();
                         Leap.LeapYears();
-                        end = false;
+                        break;
+                    case 3:
+                        PowerOfTwo Power = new PowerOfTwo();
+                        Power.Power();
                         break;
                     default:
                         Console.WriteLine("Enter Proper Option To Execute");
