@@ -19,10 +19,11 @@ namespace BasicCorePrograms
                         FlipCoins flipCoin = new FlipCoins();
                         flipCoin.FlipCoin();
                         break;
-                    case 4:
+                    case 2:
+                        LeapYear Leap = new LeapYear();
+                        Leap.LeapYears();
                         end = false;
                         break;
-
                     default:
                         Console.WriteLine("Enter Proper Option To Execute");
                         break;
